@@ -1,0 +1,80 @@
+/* MARK : DEFAULT */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+    background-color: #0d624b;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #023d2d;
+}
+
+button {
+    background-color: #035640;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #053b2d;
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #043427;
+}
+
+/* MARK : ID */
+
+#inputfield {
+    outline: none;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 10px;
+    border: solid #13916f;
+}
+
+#inputfield:focus {
+    border: solid #023d2d;
+}
+
+/* MARK : CLASS */
+
+.inputsection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 5px;
+}
+
+.textketerangan {
+    margin-left: 250px;
+    margin-right: 250px; 
+    color: #023d2d;
+    align-self: center;
+}
